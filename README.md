@@ -22,7 +22,7 @@ We have identified that crawler detection models **are crucial for websites  and
 
 **Background:** Web crawler detection is critical for preventing unauthorized extraction of  valuable information from websites. 
 
-**Current issues what needed to solved urgently:** Current methods rely on heuristics,  leading to time-consuming processes and inability to detect novel  crawlers. Privacy protection and communication burdens during training  are overlooked, resulting in potential privacy leaks. 
+**Current issues that need to be solved urgently:** Current methods rely on heuristics, leading to time-consuming processes and the inability to detect novel crawlers. Privacy protection and communication burdens during training are overlooked, resulting in potential privacy leaks.
 
 **Our methods:** To address these  issues, we propose a federated deep learning crawler detection model  that analyzes access behaviors while preserving privacy. First,  individual clients locally host website data, while the central server  aggregates information for detection model parameters, eliminating raw  user data transmission or access. We then develop an innovative  algorithm constructing access path trees from user logs, effectively  extracting temporal and spatial behavior features. Additionally, we  propose a novel time series model with fused additive attention,  enabling effective web crawler detection while preserving privacy and  reducing data transmission. 
 
